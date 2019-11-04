@@ -1,0 +1,120 @@
+body {
+    display: flex;
+    padding: 60px;
+    padding-top: 30px;
+    font-family: 'Montserrat', sans-serif;
+    flex-direction: column;
+    
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: space-between;
+
+}
+
+.logo {
+    border : 10px solid #ffcc4b;
+    width: 50px;
+    height: 50px;
+    border-radius: 35px; 
+}
+
+.company {
+    display: flex;
+    margin-left: 24px;
+    font-size: 28.5px;
+    letter-spacing: -0.05px;
+    line-height: 25.2px;
+    font-weight: 800;
+    color: #838a9b;
+    justify-content: center;
+    align-items: center;
+}
+
+.hamberger {
+    display: flex;
+    width: 21.1px;
+    height: 17.9px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-left: 60px;
+}
+.hamberger div{
+    display: flex;
+    width : 21.1px;
+    height: 3.9px;
+    background-color: #cdd2e1;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 768.9px;
+    font-size: 17.1px;
+    font-weight: 700;
+    letter-spacing: -0.01px;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 677px;
+    justify-content: flex-start;
+}
+
+.left-content {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    font-size: 72.4px;
+    color : #535c64;
+    letter-spacing: -0.05px;
+    font-weight: 800;
+    line-height: 64px;
+}
+
+.latin {
+    display: flex;
+    margin-top: 39px;
+    font-size: 13.2px;
+    letter-spacing: 0.1px;
+    color: #686d79;
+    font-weight: 500;
+}
+
+.read-border {
+    display: flex;
+    width: 172px;
+    height: 42.8px;
+    background-color: #d7e3f8;
+    border-radius: 27px; 
+    margin-top: 42px;
+    justify-content: center;
+    
+}
+
+.read {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.05px;
+    color: #bdcce0;
+
+}
+
+.follow-us {
+    
+}
