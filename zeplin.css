@@ -5,6 +5,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     flex-direction: column;
     
+    
 }
 
 header {
@@ -12,9 +13,14 @@ header {
     flex-direction: row;
     height: 70px;
     justify-content: space-between;
-
+    width: 100%;
 }
-
+#brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+}
 .logo {
     border : 10px solid #ffcc4b;
     width: 50px;
@@ -40,7 +46,6 @@ header {
     height: 17.9px;
     justify-content: space-between;
     flex-direction: column;
-    padding-left: 60px;
 }
 .hamberger div{
     display: flex;
@@ -52,11 +57,16 @@ header {
 .menu {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    padding-left: 768.9px;
+    justify-content: space-evenly;
+    width: 50%;
     font-size: 17.1px;
     font-weight: 700;
     letter-spacing: -0.01px;
+}
+
+.menu a {
+    text-decoration-line: none;
+    color: #777d8b;
 }
 
 
@@ -65,15 +75,19 @@ header {
     flex-direction: row;
     width: 100%;
     height: 677px;
-    justify-content: flex-start;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    margin-top: 78.1px;
+    
 }
 
 .left-content {
     display: flex;
     width: 50%;
-    height: 100%;
+    height: 677px;
     flex-direction: column;
     justify-content: center;
+    /* border: 2px solid blue; */
 }
 
 .main-content {
@@ -115,6 +129,57 @@ header {
 
 }
 
-.follow-us {
+.follow {
+    display: flex;
+    flex-direction: row;
+    margin-top: 57.3px;
     
+}
+
+.text {
+    width: 72px;
+    height: 16px;
+    font-size: 13.2px;
+    font-weight: 500;
+    letter-spacing: 0.1px; 
+    color: #d6dbe7;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.facebook {
+    width : 15px;
+    height: 21px;
+    margin-left: 30px;
+    object-fit: contain;
+}
+
+.tumbler {
+    width : 14px;
+    height: 21px;
+    padding-left: 23px;
+}
+
+.instagram {
+    width : 21px;
+    height: 21px;
+    padding-left: 19px;
+}
+
+.right-content {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    background: url(group-2-3-x.png) no-repeat center right;
+    background-size: contain;
+    /* border: 2px solid brown; */
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    height: 677px;
 }
