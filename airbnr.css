@@ -1,0 +1,361 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 2397px;
+    background-color: #f6f6f7;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+.header {
+    display: flex;
+    width: 1440;
+    height: 70px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    
+}
+
+.header-1 {
+    display: flex;
+    margin-left: 135px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30px;
+    height: 30px; 
+    background-color: #25df8f;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-1 p {
+    width: 14px;
+    height: 24px;
+    font-family: 700;
+    font-size: 20px;
+    text-align:center;
+    color: #ffffff;
+}
+
+.header-2 {
+    display: flex;
+    flex-direction: row;
+    width: 510px;
+    height: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 30px;
+    border: 1px solid #d9dde7;
+    border-radius: 5px;
+}
+
+.text-search {
+    display: flex;
+    flex: 1;
+    height: 16px;
+    margin-left: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    flex-direction: row;  
+}
+ 
+.text-search input {
+    display: flex;
+    flex: 1;
+    font-size: 12px;
+    font-weight: 400;
+    color: #949fb7; 
+}
+
+.search-icon {
+    display: flex;
+    width: 12px;
+    height: 12px;
+    background-image: url(search-icon.svg);
+    background-size: cover;
+    margin:10px; 
+}
+
+.header-right {
+    display: flex;
+    width: 50%;  
+}
+
+.content-right {
+    display: flex;  
+    flex: 1;
+    margin-left: 221px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 135px;
+    align-items: center;   
+    justify-content: space-between;
+
+}
+
+
+.become,
+.trips,
+.help {
+    font-size: 14px;
+    font-weight: 400;
+    color: #596172;
+
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    font-weight: 400;
+    color: #596172;   
+}
+
+.mess-border {
+    width: 6px;
+    height: 6px; 
+    border-radius: 3px;
+    background-color: #25df8f;
+}
+
+.photo {
+    width: 30px;
+    height: 30px;
+    background-image: url(user.jpg);
+    background-size: cover;
+}
+
+.mid {
+    display: flex;
+    flex-direction: row;
+    width:1440px;
+    height: 550px;
+}
+
+.mid-left {
+    display: flex;
+    flex-direction: column;
+    width: 735px;
+    background-color: #ffffff;
+
+}
+
+.home {
+    display: flex;
+    width: 41px;
+    height: 53px;
+    margin-left: 135px;
+    margin-top: 101px;
+    background-image: url(home-img.svg);
+    background-size: cover;
+}
+
+.booking {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 135px;
+    margin-top: 30px;
+    width: 490px;
+    height: 100px;
+
+}
+
+.booking p {
+    font-size: 36px;
+    line-height: 1.39;
+    font-weight: 400;
+    color: #2b313d;
+}
+
+.search-text {
+    display: flex;
+    margin-left: 135px;
+    margin-top: 30px;
+    margin-right: 130px;
+    flex-direction: row;
+    height: 50px;
+    border: 1px solid #d9dde7;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-text input {
+    display: flex;
+    flex: 1;
+    height: 16px;
+    font-size: 12px;
+    font-weight:400;
+    color: #949fb7;
+    margin-left: 20px;
+}
+
+.search-bar {
+    display: flex;
+    width: 11.6px;
+    height: 12px;
+    background-image: url(search-icon.svg);
+    background-size: cover;
+    margin-right:20px; 
+}
+
+.prop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;    
+    margin-left: 135px;
+    margin-top: 15px;
+    margin-right: 190px;
+    height: 30px;
+}
+
+.properties {
+    display: flex;
+    width: 104px;
+    height: 30px; 
+    border-radius: 5px;
+    background-color: #25df8f;
+    justify-content: center;
+    align-items: center;
+}
+
+.properties p,
+.homes p,
+.experiences p,
+.restaurants p
+{
+    font-size: 14px; 
+    font-weight: 400;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.homes,
+.experiences,
+.restaurants {
+    display: flex;
+    border-radius: 5px;
+    background-color: #c1c8d7;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid-right {
+    display: flex;
+    width: 705px;
+    height: 550px;
+    background-image: url(background-right.jpg);
+    background-size: cover;
+}
+
+.bottom {
+    display: flex;
+    width: 1440px;
+    height: 100%;
+    flex-direction: column; 
+    border: 1px solid orange; 
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 135px;
+    margin-right: 135px;
+    margin-top: 60px;
+    justify-content: flex-start;
+    border: 1px solid black;
+}
+
+.part-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.apartments-in {
+    display: flex;
+    flex-direction: row;
+}
+
+.apart {
+    height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #949fb7;
+}
+
+.country {
+    height: 32px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #2b313d;
+}
+
+.triangle {
+    display: flex;
+    width: 8px;
+    height: 6px;
+    transform: rotate(180deg);
+    background-color: #c1c8d7;
+
+}
+
+.show {
+    width: 78px;
+    height: 16px; 
+    font-size: 12px;
+    color: #596172;
+}
+
+.part-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.display-apartment {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.display-image {
+    width: 270px;
+    height: 190px;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.cost {
+    width: 91px;
+    height: 19px;
+    font-size: 14px; 
+    color: #596172;
+}
+
