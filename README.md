@@ -26,5 +26,9 @@ Go to any browser and in url field paste the path of html pages.
 1. airbnr.html
 2. zeplin.html
 
+There is a page in the video folder, copy the path of video.html and paste it in the url field. 
+
+There you go!!!
+
 Thank you for going through this repo. Hope you understood the concepts.
 
